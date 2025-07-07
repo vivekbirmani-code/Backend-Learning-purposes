@@ -1,4 +1,5 @@
 import express from "express"
+<<<<<<< HEAD
 import cors from "cors"
 import cookieParser from "cookie-parser"
 
@@ -17,4 +18,9 @@ app.use(express.static("public")) //when we are building a website we have a bun
 
 app.use(cookieParser())  //Please read the cookies that come with each request, so I can easily use them in my code. Cookies are small pieces of data (like tokens or user info) stored in the browser and sent to the server with every request.
 
+=======
+
+const app = express()
+
+>>>>>>> ce50d1092a12709849486529d5662d72af84aa6a
 export { app }  // we can also write this as export defualt express both are correct
